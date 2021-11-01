@@ -1,0 +1,242 @@
+html, body{
+    margin:0%;
+    box-sizing:border-box;
+    width:100%;
+    height:80%;
+}
+
+container{
+    border:olive solid;
+}
+
+/*============== Start navigation bar==============*/
+.site-banner{
+    height:80vh;
+}
+.header-area .main-menu .navbar .navbar-brand{
+    padding:0.2rem 0.4rem;
+}
+
+.header-area .main-menu .navbar{
+    padding:1rem 2rem;
+}
+
+.header-area .main-menu .nav-item .nav-link{
+    font-family: 'Roboto', sans-serif;
+    text-transform:uppercase;
+    font-size: 2rem;
+    font-weight:500;
+    padding:1.7rem;
+    color: black;
+}
+
+.header-area .main-menu .navbar-nav{
+    background: black;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-clip:text;
+}
+
+a{
+    background: black;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-clip:text;
+}
+
+.header-area .main-menu .navbar-nav{
+    background: green;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-clip:text;
+}
+
+a:hover{
+    background: navy;
+    font-weight: bold;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-clip:text;
+}
+/*==============End navigation bar==============*/
+
+/*==============Start banner area==============*/
+.site-main.site-banner.site-title{
+    padding-top:35%;
+    font-weight:500;
+}
+h3{
+    padding-top:35%;
+    font-weight:500;
+}
+
+
+.site-main.site-banner.site-title{
+    content:"";
+    height: 2px;
+    width:15vw;
+    background: black;
+    display:inline-block;
+    margin-left:5%;
+    transform:translateY(-12px);
+}
+
+h3::after{
+    content:"";
+    height: 2px;
+    width:15vw;
+    background: black;
+    display:inline-block;
+    margin-left:5%;
+    transform:translateY(-12px);
+}
+
+.site-main.site-banner.site-title{
+    font-size: 5rem;
+}
+
+ h1{
+    font-size: 5rem;
+}
+
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+}
+
+h4{
+    font-size: 1.5rem;
+}
+
+
+.site-main.site-banner.banner-image img{
+    padding:7rem 0;
+    width:90rem;
+    border:3px solid red;
+}
+
+
+.title-text{
+    font:normal bold 50px/72px 
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+.name-banner{
+    color: navy;
+}
+
+
+
+
+/* end banner area*/
+/* Start About Section*/
+.about-section{
+    height:80vh;
+    border:3px solid red;
+}
+.site-main.about-section{
+    padding:8rem 5 rem;
+    border:3px solid blue;
+}
+
+.site-main.about-section.about-title{
+    padding: 0 14rem;
+}
+
+.site-main.about-section.about-title h1 {
+    font-size:35px;
+    display:block;
+    font: normal bold 49px/60px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing:21px;
+    padding: .8rem 0;
+}
+
+
+.para{
+    padding: .4rem 0;
+    color: black;
+    font:normal 500 16px/25px;
+    font-family: 'Roboto', sans-serif;
+    font-size:1.5rem;
+}
+
+.para-list{
+    padding: .4rem 0;
+    color: black;
+    font:normal 500 16px/25px;
+    font-family: 'Roboto', sans-serif;
+    font-size:1.5rem;
+}
+.video-box{
+    padding-top:50px;
+    position:relative;
+    overflow:hidden;
+    padding-top:56.25%;
+    border:3px solid red;
+    
+}
+.video-box iframe{
+    
+    top:0;
+    left:0;
+    width:100%;
+   
+}
+
+/* End About Section*/
+
+/* Start Portfolio Section*/
+.portfolio-section{
+    height: 80vh;
+}
+.site-main.portfolio-section{
+    padding:7rem 2rem;
+}
+
+.site-main.portfolio-section.portfolio-title{
+    padding: 0 14rem;
+}
+
+.site-main.portfolio-section.portfolio-title h1 {
+    font-size:35px;
+}
+
+.site-main>.portfolio-section.portfolio{
+    background: gray;
+    padding:2rem 0;
+    width:16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+   
+}
+
+.site-main>.portfolio-section.portfolio:hover{
+    box-shadow: 0px 10px 30px;
+}
+
+/* End Portfolio Section*/
+
+/* Footer */
+footer.footer-section{
+    height:20%
+    padding: 5rem 0;
+    background: #d7e0f9;
+}
+
+footer.footer-section.social>h5{
+    font:normal 500 23px/30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer.footer-section.social>i{
+    font-size:30px;
+    padding:2rem;
+}
+
+
+/* Footer */
