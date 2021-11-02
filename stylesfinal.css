@@ -1,0 +1,232 @@
+html, body{
+    margin:0%;
+    box-sizing:border-box;
+    width:100%;
+}
+
+/*============== Start navigation bar==============*/
+
+.header-area .main-menu .navbar .navbar-brand{
+    padding:0.2rem 0.4rem;
+}
+
+.header-area .main-menu .navbar{
+    padding:1rem 2rem;
+}
+
+.header-area .main-menu .nav-item .nav-link{
+    font-family: 'Roboto', sans-serif;
+    text-transform:uppercase;
+    font-size: 2rem;
+    font-weight:500;
+    padding:1.7rem;
+    color: black;
+}
+
+.header-area .main-menu .navbar-nav>a{
+    background: black;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-clip:text;
+}
+
+a:hover{
+    background:#7EB599;
+    font-weight: bold;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-clip:text;
+}
+/*==============End navigation bar==============*/
+
+/*==============Start banner area==============*/
+.site-main.site-banner.site-title{
+    padding-top:45%;
+    font-weight:500;
+}
+h3{
+    padding-top:35%;
+    font-weight:500;
+}
+
+
+.site-main.site-banner.site-title{
+    content:"";
+    height: 2px;
+    width:15vw;
+    background: black;
+    display:inline-block;
+    margin-left:5%;
+    transform:translateY(-12px);
+}
+
+h3::after{
+    content:"";
+    height: 2px;
+    width:15vw;
+    background: black;
+    display:inline-block;
+    margin-left:5%;
+    transform:translateY(-12px);
+}
+
+.site-main.site-banner.site-title{
+    font-size: 5rem;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+
+.site-main .site-banner .site-title{
+    font-size: 1.5rem;
+}
+
+h4{
+    font-size: 1.5rem;
+    color:#7EB599;
+}
+
+
+.site-main.site-banner.banner-image img{
+    padding:25rem 0;
+    width:90rem;
+}
+
+.title-text{
+    font:normal bold 50px/72px 
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+.name-banner{
+    color: #B57E7F;
+}
+
+/* end banner area*/
+
+/* Start About Section*/
+.about-section{
+    padding-top: 10rem;
+    background:#F8F2F2;
+}
+
+.site-main.about-section{
+    padding:30rem 5rem;
+}
+
+.site-main.about-section.about-title{
+    padding: 2em;
+   
+}
+
+.site-main.about-section.about-title>h1{
+    font-size:35px;
+    display:block;
+    font: normal bold 49px/60px;
+    font-family: 'Roboto', sans-serif;
+    padding: .8rem 0;
+}
+
+
+.para{
+    padding: .4rem 0;
+    color: black;
+    font:normal 500 16px/25px;
+    font-family: 'Roboto', sans-serif;
+    font-size:1.5rem;
+}
+
+.para-list{
+    padding: .4rem 2rem;
+    color: black;
+    font:normal 500 16px/25px;
+    font-family: 'Roboto', sans-serif;
+    font-size:1.5rem;
+}
+.video-box{
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:25px;
+    height: 0 px;
+
+}
+.video-box iframe{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:50%;
+}
+
+@media only screen and (max-width: 900px) {
+    .video-box iframe{
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+    }
+  }
+
+/* End About Section*/
+
+/* Start Portfolio Section*/
+
+.portfolio-section{
+    padding:1.5rem 0;
+}
+
+.portfolio{
+    padding:2rem 0;
+    width:20rem;
+}
+
+.portfolio h5{
+    background-color:#7EB599;
+    color:whitesmoke;
+}
+.portfolio a{
+    color:#B57E7F;
+}
+
+
+.card-body{
+    margin-top: 10px;
+    width:305px;
+    height:235px;
+
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.portfolio-img:hover{
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+  
+}
+
+/* End Portfolio Section*/
+
+/* Footer */
+footer.footer-section{
+    height:5%;
+    padding: 2rem 0;
+    background: #B57E7F;
+}
+
+
+.social>a{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color:whitesmoke;
+}
+
+
+/* Footer */
