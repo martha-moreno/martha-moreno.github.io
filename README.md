@@ -11,7 +11,7 @@
 ## Built With
 >- HTML5
 >- CSS3
->-Bootstrap5
+>- Bootstrap5
 
 ## Links
 >- [Portfolio Repo](https://martha-moreno.github.io/)
