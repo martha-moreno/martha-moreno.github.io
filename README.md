@@ -4,9 +4,9 @@
 > This project displays my personal portfolio page hosted in GitHub Pages
 
 ## Installation
->  Download all files (index.html, stylesfinal.css and all images under the folder img) to the same location/folder
->  Drag & Drop index html into your web browser
->  You should be able to see the website and navigate
+>-  Download all files (index.html, stylesfinal.css and all images under the folder img) to the same location/folder
+>-  Drag & Drop index html into your web browser
+>-  You should be able to see the website and navigate
 
 ## Built With
 >- HTML5
